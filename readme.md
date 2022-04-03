@@ -117,5 +117,7 @@ main(Set(1, 1, 2, 3, 5, 4, 6))
 Agrupam diferentes tipos de coleções e diferentes tipos de dados.
 
 ```
+val hostPort: (List[String], Int, Int, String) = (List("SP", "RJ"), 80, 70, "BA")
 
+hostPort._3 ===> 70
 ```
