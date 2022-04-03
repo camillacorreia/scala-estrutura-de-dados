@@ -121,3 +121,24 @@ val hostPort: (List[String], Int, Int, String) = (List("SP", "RJ"), 80, 70, "BA"
 
 hostPort._3 ===> 70
 ```
+
+#### Sequências
+
+Agrupa listas, vetores e arrays.
+
+```
+val hostPort: (List[String], Int, Int, String) = (List("SP", "RJ"), 80, 70, "BA")
+
+hostPort._3 ===> 70
+```
+
+#### [Map](https://docs.scala-lang.org/overviews/collections/maps.html)
+
+
+```
+val gps = Map("pais" -> "Brasil", "cidade" -> "Salvador", "bairro" -> "Federação")
+
+gps. keys = Iterable(pais, cidade, bairro)
+gps.values = Iterable(Brasil, Salvador, Federação)
+
+```
