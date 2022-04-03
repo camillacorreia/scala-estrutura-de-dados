@@ -9,6 +9,9 @@ object TupleAndMap extends App {
 
     val listaTelefonica = Map(("João", 1), ("Camilla", 2))
     println(listaTelefonica);
+
+    println(listaTelefonica.contains("João"));
+    println(listaTelefonica.contains("Nandes"));
   }
 
   f();
