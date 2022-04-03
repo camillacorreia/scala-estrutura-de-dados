@@ -142,3 +142,11 @@ gps. keys = Iterable(pais, cidade, bairro)
 gps.values = Iterable(Brasil, Salvador, Federação)
 
 ```
+
+
+#### [Options](https://www.tutorialspoint.com/scala/scala_options.htm)
+
+Pode ser um objeto Some[T] ou None.
+
+
+
